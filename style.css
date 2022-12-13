@@ -1,0 +1,64 @@
+#calculadora {
+    background-color: rgb(105, 104, 104);
+    width: 400px;
+    height: 300px;
+    margin: auto;
+    display: block;
+    border-radius: 10px 0px 10px 0px;
+    box-shadow: 5px 5px 10px rgba(97, 88, 88, 0.445);
+}
+
+#calculadora #resultado {
+    background-color: rgb(255, 255, 255);
+    width: 300px;
+    margin: auto;
+    display: block;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    border-color: rgba(97, 88, 88, 0.74);
+    border-width: 05px;
+    border-style: solid;
+}
+
+#calculadora h1 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px 0px 10px 0px;
+    background-color: rgb(41, 34, 34);
+    border-radius: 10px 0px 0px 0px;
+    color: white;
+}
+
+#calculadora .numeros {
+    margin: auto;
+    display: block;
+    width: 300px;
+    padding: 5px;
+    margin-top: 5px;
+}
+
+#calculadora #op {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+}
+
+#calculadora #op input {
+    padding: 15px 24px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    border: none;
+}
+
+#calculadora #op input:hover {
+    cursor: pointer;
+    background-color: rgb(61, 60, 60);
+    border: none;
+}
+
